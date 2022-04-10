@@ -1,0 +1,114 @@
+.home {
+    background-color: var(--overlay);
+    color:#fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.home::before {
+    content: '';
+    background: url('../static/1.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+.home .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    padding: 1rem;
+}
+
+.home .content p:first-child {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.home .content p:nth-child(2) {
+    font-size: 1.9rem;
+}
+
+.home .content p:nth-child(3) {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    font-size: 1.1em;
+    background: none;
+    border: white;
+    position: relative;
+    cursor: pointer;
+}
+.btn::before, .btn::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index: -2;
+}
+
+.btn::after{
+    width: 110%;
+    height: 90%;
+    top:25%;
+    left:-5%;
+    background: #2c2891;
+    z-index: -3;
+    transform: scaleX(0.5);
+    transition: all 0.6s;
+}
+
+.btn:hover::after{
+    transform: scaleX(1.01) translateY(-15px);
+}
+
+.social-icons {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    color: #1c1d24;
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease-in-out;
+}
+
+svg {
+    stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1em;
+    width: 1em;
+}
+
+.social-icons a:hover {
+    background: #dc965a;
+    color: #fff;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
