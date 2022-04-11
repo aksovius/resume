@@ -1,7 +1,7 @@
 :root {
   --primary-color: #5bb462;
-  --primary-dark: #4f9c55;
-  --secondary-color: #ffea00;
+  --primary-dark: #6e00fd;
+  --secondary-color: #0011ff;
   --secondary-dark:#e3d002;
   --overlay: rgba(0,0,0,.7);
 }
@@ -39,18 +39,22 @@ a {
 .button {
   padding: 17px 28px;
   font-size: 1.2rem;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   text-transform: uppercase;
-  background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   cursor: pointer;
+  background: linear-gradient(to right, var(--primary-color) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
 .button:hover {
-  background: var(--primary-dark);
   border: 1px solid var(--primary-dark);
+  color:white;
+  background-position: left bottom;
 }
 
 .line {
@@ -59,4 +63,8 @@ a {
   height: 3px;
   margin: 5px auto;
   background-color: var(--primary-color);
+}
+
+html {
+  scroll-behavior: smooth;
 }

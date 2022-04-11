@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='header'>
             <nav className='navbar'>
                 <a href='/' className='logo'>
-                    <img src={logo} alt='logo'/>
+                    <img  alt='logo'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                 {click ? (<MenuIcon size={30} style={{ color: '#ffffff' }} />)
@@ -23,19 +23,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                     <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <a href='#home'>Home</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about'>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Experience</a>
+                        <a href='#testimonials'>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Education</a>
+                        <a href='#demo'>Education</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Hobby</a>
+                        <a href='#demo'>Hobby</a>
                     </li>
                 </ul>
             </nav>
