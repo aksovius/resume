@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import logo from '../static/logo.svg'
+import logo from '../static/logo.png'
 import '../css/Navbar.css'
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='header'>
             <nav className='navbar'>
                 <a href='/' className='logo'>
-                    <img  alt='logo'/>
+                    <img src={logo} alt='logo'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                 {click ? (<MenuIcon size={30} style={{ color: '#ffffff' }} />)
@@ -29,10 +29,10 @@ const Navbar = () => {
                         <a href='#about'>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials'>Experience</a>
+                        <a href='#education'>Education</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Education</a>
+                        <a href='#experience'>Experience</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#demo'>Hobby</a>

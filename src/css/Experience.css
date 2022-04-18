@@ -1,0 +1,15 @@
+.experience {
+    background-color: #f8f8f8;
+    height:100vh;
+    width:100%;
+    position: relative;
+    padding: 90px;
+}
+
+.experience .container {
+    margin: auto;
+}
+
+.experience ul {
+    padding: 3rem 1rem 1rem;
+}

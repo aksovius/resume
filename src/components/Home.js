@@ -5,10 +5,10 @@ const Home = () => {
         <div className='home' id='home'>
             <div className='content'>
             
-                <p>Email</p>
-                <p> aress</p>
-                <p> some</p>
-                <button className='btn'><a href="#about">Who I I'M</a></button>
+                <p>Hello,</p>
+                <p> I'm Alexander Kim</p>
+                <p> Smart City Researcher</p>
+                <a className='btn' href="#about">Who I I'M</a>
                 <div className="nav social-icons justify-content-center text-sm-center justify-content-md-end">
                 <a href="https://www.facebook.com/" rel="noreferrer" target="_blank">
                 

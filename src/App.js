@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Testimonials from './components/Testimonials'
 import Demo from './components/Demo'
 import Footer from './components/Footer'
+import Education from './components/Education';
+import Experience from './components/Experience';
 
 
 function App() {
@@ -13,8 +15,8 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      <Testimonials />
-      <Demo />
+      <Education/>
+      <Experience />
       <Footer />
     </div>
   );

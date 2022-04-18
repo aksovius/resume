@@ -3,7 +3,7 @@
 }
 
 .testimonials .container {
-    width: 1240px;
+    max-width: 1240px;
     margin: 4rem auto;
     padding: 4rem 0rem;
 }
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 940px) {
     .testimonials .container {
-        width: 100%;
+        width: 100vw;
     }
 
     .testimonials .container .content {
