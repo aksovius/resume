@@ -1,0 +1,44 @@
+.side-nav {
+    position: fixed;
+    height: 14rem;
+    width: 2rem;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.9);
+}
+
+.side-nav .nav-item {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 7px;
+    position: relative;
+    z-index: 1;
+}
+
+.dot {
+    border-radius: 50%;
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+}
+
+.active {
+    height: 12px;
+    width: 12px;
+    margin: -6px 0 0 -4px;
+    border-radius: 100%;
+    transition: all .1s ease-in-out;
+    position: absolute;
+    border: 0;
+    background: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+}

@@ -1,9 +1,11 @@
 :root {
-  --primary-color: #5bb462;
+  --primary-color: #0011ff;
   --primary-dark: #6e00fd;
   --secondary-color: #0011ff;
   --secondary-dark:#e3d002;
   --overlay: rgba(0,0,0,.4);
+  --background: #000000;
+  --text:#ffffff;
 }
 
 * {
@@ -34,6 +36,19 @@ ul {
 
 a {
   text-decoration: none;
+
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
 }
 
 .button {
@@ -69,14 +84,47 @@ html {
   scroll-behavior: smooth;
 }
 
-.title::after {
-  content:"";
-  width: 10vw;
-  height: 3px;
-  background: var(--secondary-color);
-  position: absolute;
+.title {
+  border-bottom: 3px solid var(--secondary-color);
+  font-size: 3rem;
+  font-weight: 500;
+  width: fit-content;
 }
+
 
 .title h2 {
   font-size: 3rem;
+}
+
+.list-table {
+  background: var(--overlay);
+  margin-top: 2rem;
+}
+
+.date {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  border-radius: 1em;
+  width: fit-content;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  background: var(--primary-color);
+}
+
+.list-primary {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.list-secondary{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.list-tertiary{
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
 }

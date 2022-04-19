@@ -1,4 +1,4 @@
-.education {
+.publications {
     background-color: var(--background);
     height:100vh;
     width:100%;
@@ -6,7 +6,6 @@
     padding: 90px;
 }
 
-.education .container {
-    margin: auto;
+.publications .container {
     color: var(--text)
 }

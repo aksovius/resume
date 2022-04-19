@@ -21,7 +21,7 @@ const Navbar = () => {
                 {click ? (<MenuIcon size={30} style={{ color: '#ffffff' }} />)
                         : (<MenuOpenIcon size={30} style={{ color: '#ffffff' }} />)}
                 </div>
-                <ul className={click ? 'nav-menu active': 'nav-menu'}>
+                <ul className={click ? 'nav-menu active': 'nav-menu'} onClick={closeMenu}>
                     <li className='nav-item'>
                         <a href='#home'>Home</a>
                     </li>
@@ -35,7 +35,10 @@ const Navbar = () => {
                         <a href='#experience'>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Hobby</a>
+                        <a href='#publications'>Publications</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#hobby'>Hobby</a>
                     </li>
                 </ul>
             </nav>
