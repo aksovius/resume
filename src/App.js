@@ -6,15 +6,15 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Publications from './components/Publications';
 import Hobby from './components/Hobby';
-import SideNav from './components/SideNav';
+
 
 
 function App() {
   return (
 
    <div>
-      
-      <SideNav/>
+      <Navbar/>
+   
       <Home/>
       <About/>
       <Education/>
