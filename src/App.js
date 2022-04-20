@@ -15,7 +15,7 @@ function App() {
 
    <div>
       <Navbar/>
-      <SideNav/>
+      
       <Home/>
       <About/>
       <Education/>
