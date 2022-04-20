@@ -6,6 +6,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Publications from './components/Publications';
 import Hobby from './components/Hobby';
+import SideNav from './components/SideNav';
 
 
 
@@ -14,7 +15,7 @@ function App() {
 
    <div>
       <Navbar/>
-   
+      <SideNav/>
       <Home/>
       <About/>
       <Education/>

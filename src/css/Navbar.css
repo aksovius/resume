@@ -61,7 +61,9 @@
 
     .hamburger {
         display: block;
+        color: #fff;
     }
+    
 
     .nav-menu {
         position: fixed;

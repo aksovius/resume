@@ -2,15 +2,14 @@
     position: fixed;
     height: 14rem;
     width: 2rem;
-    top: 50%;
-    left: 0;
+    top:40%;
+    right: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: rgba(0,0,0,.9);
 }
 
-.side-nav .nav-item {
+.side-nav .side-item {
     display: block;
     width: 14px;
     height: 14px;
@@ -28,9 +27,10 @@
     background: rgb(255, 255, 255);
     left: 50%;
     top: 50%;
+    transition: 0.5s ease-in-out;
 }
 
-.active {
+.active-dot {
     height: 12px;
     width: 12px;
     margin: -6px 0 0 -4px;
@@ -41,4 +41,5 @@
     background: rgb(255, 255, 255);
     left: 50%;
     top: 50%;
+    transition: 0.5s ease-in-out;
 }

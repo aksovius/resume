@@ -9,6 +9,9 @@
 .home::before {
     content: '';
     background: url('../static/back.png') no-repeat right center/90% #1c1d24;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -113,7 +116,6 @@
         font-size: 2rem;
         font-weight: 500;
     }
-
     .home .content {
         margin: auto
     }

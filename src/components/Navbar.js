@@ -14,12 +14,12 @@ const Navbar = () => {
     return ( 
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <a href='https://aksovius.github.io/resume' className='logo'>
                     <img src={logo} alt='logo'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
-                {click ? (<MenuIcon size={30} style={{ color: '#ffffff' }} />)
-                        : (<MenuOpenIcon size={30} style={{ color: '#ffffff' }} />)}
+                {click ? (<MenuIcon fontSize="large"/>)
+                        : (<MenuOpenIcon fontSize="large"/>)}
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'} onClick={closeMenu}>
                     <li className='nav-item'>
