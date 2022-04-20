@@ -1,10 +1,10 @@
 import React from 'react';
-import '../css/Publications.css'
+
 
 const Publications = () => {
     return (
-        <div className='publications' id='publications'>
-            <div className='container'>
+       
+            <div className='container' id='publications'>
                     <p className='title'>Publications</p>
                     <ul className='list-table'>
                         <li>
@@ -21,7 +21,7 @@ const Publications = () => {
                         </li>
                     </ul>
             </div>
-        </div>
+      
     );
 };
 

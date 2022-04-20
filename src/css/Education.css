@@ -10,3 +10,24 @@
     margin: auto;
     color: var(--text)
 }
+
+@media screen and (max-width:940px) {
+
+    .education{
+        height: 100%;
+        padding: 5px;
+        height: 100vh;
+    }
+ 
+    .education .container {
+        display: block;
+        width: 100%;
+        
+        grid-template-columns: 1fr;
+    }
+    .education .col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}

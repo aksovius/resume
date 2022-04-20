@@ -9,3 +9,24 @@
 .publications .container {
     color: var(--text)
 }
+
+@media screen and (max-width:940px) {
+
+    .publications{
+        height: 100%;
+        padding: 5px;
+        height: 100vh;
+    }
+ 
+    .publications .container {
+        display: block;
+        width: 100%;
+        grid-template-columns: 1fr;
+        
+    }
+    .publications .col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}

@@ -109,4 +109,22 @@
 }
 
 @media screen and (max-width:940px) {
+    .home .content p {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .home .content {
+        margin: auto
+    }
+    .social-icons {
+        position: absolute;
+        bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
 }

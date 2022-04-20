@@ -23,6 +23,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
   line-height: 1.2;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 code {
@@ -50,6 +57,29 @@ a:visited {
   color: inherit;
   cursor: auto;
 }
+
+/*Main container*/
+
+.container {
+  background-color: var(--background);
+  height:100vh;
+  width:100%;
+  position: relative;
+  padding: 90px;
+  margin: auto;
+  color: var(--text)
+}
+
+.title {
+  border-bottom: 3px solid var(--secondary-color);
+  font-size: 3rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+
+
+
 
 .button {
   padding: 17px 28px;
@@ -80,21 +110,8 @@ a:visited {
   background-color: var(--primary-color);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.title {
-  border-bottom: 3px solid var(--secondary-color);
-  font-size: 3rem;
-  font-weight: 500;
-  width: fit-content;
-}
 
 
-.title h2 {
-  font-size: 3rem;
-}
 
 .list-table {
   background: var(--overlay);
@@ -127,4 +144,57 @@ html {
   font-size: 1.3rem;
   font-weight: 300;
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width:940px) {
+
+  .container {
+      display: block;
+      width: 100%;
+      grid-template-columns: 1fr;
+      height: 100%;
+      padding: 10px;
+      height: 100vh;
+  }
+  .col {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+
+  .list-table {
+    background: var(--overlay);
+    margin-top: 0.5rem;
+  }
+  
+  .date {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text);
+    border-radius: 1em;
+    width: fit-content;
+    padding: 0.3rem;
+    margin-top: 0.7rem;
+    background: var(--primary-color);
+  }
+  
+  .list-primary {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  
+  .list-secondary{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  .list-tertiary{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
 }

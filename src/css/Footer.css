@@ -40,5 +40,28 @@
 
 
 
+@media screen and (max-width:940px) {
 
+    .footer{
+        padding: 5px;
+    }
+ 
+    .footer .container {
+        display: block;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin: auto;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .footer li {
+        padding: 0.2rem;
+    }
+    
+    .bottom {
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
 

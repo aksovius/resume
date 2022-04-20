@@ -1,11 +1,10 @@
 import React from 'react'
-import '../css/Experience.css'
+
 
 
 const Experience = () => {
     return (
-        <div className='experience' id='experience'>
-            <div className='container'>
+            <div className='container' id='experience'>
                 <p className='title'>Experience</p>
                 <ul className='list-table'>
                     <li>
@@ -22,7 +21,6 @@ const Experience = () => {
                     </li>
                 </ul>
             </div>
-        </div>
     );
 };
 

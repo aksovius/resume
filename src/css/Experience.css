@@ -9,3 +9,23 @@
 .experience .container {
     color: var(--text)
 }
+@media screen and (max-width:940px) {
+
+    .experience{
+        height: 100%;
+        padding: 5px;
+        height: 100vh;
+    }
+ 
+    .experience .container {
+        display: block;
+        width: 100%;
+        grid-template-columns: 1fr;
+        
+    }
+    .experience .col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
