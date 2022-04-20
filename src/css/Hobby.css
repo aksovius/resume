@@ -1,0 +1,11 @@
+.hobby {
+    background-color: var(--background);
+    height:100vh;
+    width:100%;
+    position: relative;
+    padding: 90px;
+}
+
+.hobby .container {
+    color: var(--text)
+}

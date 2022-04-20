@@ -14,14 +14,14 @@ const Navbar = () => {
     return ( 
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <a href='https://aksovius.github.io/resume' className='logo'>
                     <img src={logo} alt='logo'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
-                {click ? (<MenuIcon size={30} style={{ color: '#ffffff' }} />)
-                        : (<MenuOpenIcon size={30} style={{ color: '#ffffff' }} />)}
+                {click ? (<MenuIcon fontSize="large"/>)
+                        : (<MenuOpenIcon fontSize="large"/>)}
                 </div>
-                <ul className={click ? 'nav-menu active': 'nav-menu'}>
+                <ul className={click ? 'nav-menu active': 'nav-menu'} onClick={closeMenu}>
                     <li className='nav-item'>
                         <a href='#home'>Home</a>
                     </li>
@@ -35,7 +35,10 @@ const Navbar = () => {
                         <a href='#experience'>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Hobby</a>
+                        <a href='#publications'>Publications</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#hobby'>Hobby</a>
                     </li>
                 </ul>
             </nav>

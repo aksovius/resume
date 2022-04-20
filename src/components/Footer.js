@@ -7,21 +7,27 @@ const Footer = () => {
             <div className='container'>
                 <ul>
                     <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <a href='#home'>Home</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about'>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials'>Testimonials</a>
+                        <a href='#education'>Education</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Demo</a>
+                        <a href='#experience'>Experience</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#publications'>Publications</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#hobby'>Hobby</a>
                     </li>
                 </ul>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2020 Execute, Inc. All rights reserved</p>
+                    <p>2022 Execute, Inc. All rights reserved</p>
                 </div>
             </div>
         </div>

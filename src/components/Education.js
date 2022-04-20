@@ -1,34 +1,23 @@
 import React from 'react'
-import '../css/Education.css'
-
 
 const Education = () => {
     return (
-        <div className='education' id='education'>
-            <div className='container'>
-                <div className='title'>
-                    <h2>Education</h2>
-                </div>
-                    <ul class="aducation-box theme-bg">
-                        <li>
-                            <span class="dark-bg">2020-2022</span>
-                            <h6>Sungkyunkwan University</h6>
-                            <p>Convergence Engineering for Future City</p>
-                            <p>MS</p>
-                        </li>
-                        <li>
-                            <span class="dark-bg">2008-2013</span>
-                            <h6> National Research Nuclear University (MEPhI)</h6>
-                            <p>Industrial and Civil Engineering</p>
-                            <p>BEng</p>
-                        </li>
-                        <li>
-                            <span class="dark-bg">2010-2012</span>
-                            <h6>Visual Designer</h6>
-                            <p>Jakarta Design Institute</p>
-                        </li>
-                     </ul>
-            </div>
+        <div className='container' id='education'>
+            <p className='title'>Education</p>
+            <ul className='list-table'>
+                <li>
+                    <p className='date'>2020-2022</p>
+                    <p className='list-primary'>Sungkyunkwan University</p>
+                    <p className='list-secondary'>Master of Science in Engineering</p>
+                    <p className='list-tertiary'>Convergence Engineering for Future City</p>
+                </li>
+                <li>
+                    <p className='date'>2008-2013</p>
+                    <p className='list-primary'> National Research Nuclear University (MEPhI)</p>
+                    <p className='list-secondary'><a href='https://en.wikipedia.org/wiki/Specialist_degree' target='_blank'>Specialist degree</a></p>
+                    <p className='list-tertiary'>Industrial and Civil Engineering</p>
+                </li>
+            </ul>
         </div>
     );
 };

@@ -1,11 +1,13 @@
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Testimonials from './components/Testimonials'
-import Demo from './components/Demo'
 import Footer from './components/Footer'
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Publications from './components/Publications';
+import Hobby from './components/Hobby';
+import SideNav from './components/SideNav';
+
 
 
 function App() {
@@ -13,10 +15,13 @@ function App() {
 
    <div>
       <Navbar/>
+      
       <Home/>
       <About/>
       <Education/>
       <Experience />
+      <Publications/>
+      <Hobby/>
       <Footer />
     </div>
   );

@@ -8,8 +8,8 @@ const Home = () => {
                 <p>Hello,</p>
                 <p> I'm Alexander Kim</p>
                 <p> Smart City Researcher</p>
-                <a className='btn' href="#about">Who I I'M</a>
-                <div className="nav social-icons justify-content-center text-sm-center justify-content-md-end">
+                <a className='btn' href="#about">Who I'M</a>
+                <div className="social-icons">
                 <a href="https://www.facebook.com/" rel="noreferrer" target="_blank">
                 
                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

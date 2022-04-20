@@ -8,12 +8,16 @@
 
 .home::before {
     content: '';
-    background: url('../static/back.png') no-repeat right center/90% #1c1d24;
-    height: 100%;
-    width: 100%;
+    background-image: url('../static/back.png');
+    background-color: #1c1d24;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 50%;
     position: absolute;
-    top:0;
-    left: 0;
+    top:50%;
+    left: 50%;
     z-index: -3;
 }
 
@@ -24,15 +28,13 @@
     justify-content: center;
     max-width: 1100px;
     padding: 1rem;
-    margin-left: 10rem;
-
+    margin-left: 5rem;
 }
 
 .home .content p {
     font-size: 4rem;
     font-weight: 700;
 }
-
 
 .btn {
     width: 120px;
@@ -109,4 +111,21 @@
 }
 
 @media screen and (max-width:940px) {
+    .home .content p {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .home .content {
+        margin: auto
+    }
+    .social-icons {
+        position: absolute;
+        bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
 }
