@@ -3,7 +3,7 @@
     
     background-color: #000;
     color: #eee;
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .footer .container {
@@ -11,6 +11,7 @@
     margin: auto;
     text-align: center;
     height: 100%;
+    padding: 1rem;
 }
 
 .footer ul {
@@ -33,7 +34,7 @@
 
 .bottom {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .line {
@@ -66,5 +67,9 @@
         text-align: center;
         padding-top: 1rem;
     }
+
+    .nav-item{
+        margin:0;
+      }
 }
 
