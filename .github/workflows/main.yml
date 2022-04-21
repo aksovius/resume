@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/jekyll-build-pages@v1
-    - uses: actions/upload-artifact@main
+    
 
     # Run our deployment command
     - name: Deploying the static website to gh-pages
