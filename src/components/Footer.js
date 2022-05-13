@@ -26,7 +26,7 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className='bottom'>
-                    <span className='line'></span>
+                    
                     <p>2022 Execute, Inc. All rights reserved</p>
                 </div>
             </div>

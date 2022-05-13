@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
-  --primary-color: #0011ff;
+  --primary-color: #0410f8;
   --primary-dark: #6e00fd;
   --secondary-color: #0011ff;
   --secondary-dark:#e3d002;
-  --overlay: rgba(0,0,0,.4);
-  --background: #000000;
-  --text:#ffffff;
+  --overlay: rgba(26, 21, 0, 0.45);
+  --background: rgb(255, 255, 255);
+  --text: #000000;
 }
 
 * {
@@ -14,27 +15,24 @@
   padding: 0;
 }
 
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
   line-height: 1.2;
   width: 100%;
   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 ul {
@@ -45,8 +43,6 @@ a {
   text-decoration: none;
 
 }
-
-
 
 a:link {
   text-decoration: inherit;
@@ -61,8 +57,8 @@ a:visited {
 }
 
 a:hover {
-  text-decoration:underline;
-  text-decoration-color: var(--primary-color);
+  text-decoration:3px solid underline;
+  text-decoration-color:  var(--primary-color);
 
 }
 
@@ -121,17 +117,17 @@ a:hover {
 }
 
 .list-table {
-  background: var(--overlay);
+
   margin-top: 2rem;
 }
 
 .date {
   font-size: 1rem;
-  font-weight: 500;
-  color: var(--text);
+  font-weight: 800;
+  color: white;
   border-radius: 1em;
   width: fit-content;
-  padding: 0.3rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   background: var(--primary-color);
 }
@@ -159,10 +155,8 @@ a:hover {
       display: block;
       width: 100%;
       grid-template-columns: 1fr;
-      height: 100%;
-      padding: 10px;
       height: 100vh;
-      padding-top: 90px;
+      padding: 90px 10px 10px;
   }
   .col {
       width: 100%;

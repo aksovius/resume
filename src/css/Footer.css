@@ -1,7 +1,5 @@
 .footer {
     width: 100%;
-    
-    background-color: #000;
     color: #eee;
     padding: 1rem 1rem;
 }
@@ -24,17 +22,17 @@
 }
 
 .footer li a {
-    color: #fff;
+    color: #000000;
 }
 
 .footer li a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+
 }
 
 .bottom {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0;
 }
 
 .line {
