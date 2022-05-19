@@ -3,9 +3,8 @@ import {Row} from "react-bootstrap";
 
 
 const Publications = () => {
-    return <Row className='justify-content-center d-flex align-content-center pt-lg-5'
+    return <Row className='section justify-content-center d-flex align-content-center pt-lg-5'
                 id='publications'>
-        <div className='container' >
             <p className='title'>Publications</p>
             <ul className='list-table'>
                 <li>
@@ -21,7 +20,6 @@ const Publications = () => {
                     <p className='list-tertiary'>2020 Proceedings of the 37th ISARC </p>
                 </li>
             </ul>
-        </div>
     </Row>
 };
 

@@ -7,12 +7,12 @@ import {Card, Col, Row} from "react-bootstrap";
 
 const About = () => {
     return <Row id='about' className='about d-flex justify-content-center align-content-center'>
-                <Col md={6} className={'d-flex justify-content-center'}>
+                <Col className={'d-flex justify-content-center'}>
                     <Card className={'frame'}>
                         <Card.Img src={photo} />
                     </Card>
                 </Col>
-                <Col md={6} className={'d-flex justify-content-center'}>
+                <Col  className={'d-flex justify-content-center'}>
                     <Card border={'light'} >
                         <Card.Body>
                             <Card.Title className='title' >About </Card.Title>

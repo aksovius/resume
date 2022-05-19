@@ -2,9 +2,8 @@ import React from 'react'
 import {Row} from "react-bootstrap";
 
 const Education = () => {
-    return <Row className='justify-content-center d-flex align-content-center pt-lg-5'
+    return <Row className='section justify-content-center d-flex align-content-center'
      id='education'>
-        <div className='container' >
             <p className='title'>Education</p>
             <ul className='list-table'>
                 <li>
@@ -20,7 +19,6 @@ const Education = () => {
                     <p className='list-tertiary'>Industrial and Civil Engineering</p>
                 </li>
             </ul>
-        </div>
     </Row>
 };
 

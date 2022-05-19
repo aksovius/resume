@@ -4,9 +4,8 @@ import {Row} from "react-bootstrap";
 
 
 const Experience = () => {
-    return <Row className='justify-content-center d-flex align-content-center pt-lg-5'
+    return <Row className='section justify-content-center d-flex align-content-center pt-lg-5'
                 id='experience'>
-            <div className='container' >
                 <p className='title'>Experience</p>
                 <ul className='list-table'>
                     <li>
@@ -22,7 +21,6 @@ const Experience = () => {
                         <p className='list-tertiary'>Customer Service</p>
                     </li>
                 </ul>
-            </div>
     </Row>
 };
 
