@@ -6,24 +6,25 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Publications from './components/Publications';
 import Hobby from './components/Hobby';
-import SideNav from './components/SideNav';
+import {Container} from "react-bootstrap";
 
 
 
 function App() {
   return (
+      <div>
+          <Navbar/>
+          <Container fluid>
+              <Home/>
+              <About/>
+              <Education/>
+              <Experience />
+              <Publications/>
+              <Hobby/>
+              <Footer />
+          </Container>
+      </div>
 
-   <div>
-      <Navbar/>
-      
-      <Home/>
-      <About/>
-      <Education/>
-      <Experience />
-      <Publications/>
-      <Hobby/>
-      <Footer />
-    </div>
   );
 }
 
