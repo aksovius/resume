@@ -1,9 +1,11 @@
 import React from 'react';
+import {Row} from "react-bootstrap";
 
 
 const Publications = () => {
-    return (
-        <div className='container' id='publications'>
+    return <Row className='justify-content-center d-flex align-content-center pt-lg-5'
+                id='publications'>
+        <div className='container' >
             <p className='title'>Publications</p>
             <ul className='list-table'>
                 <li>
@@ -20,7 +22,7 @@ const Publications = () => {
                 </li>
             </ul>
         </div>
-    );
+    </Row>
 };
 
 export default Publications;

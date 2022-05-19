@@ -1,10 +1,12 @@
 import React from 'react'
+import {Row} from "react-bootstrap";
 
 
 
 const Experience = () => {
-    return (
-            <div className='container' id='experience'>
+    return <Row className='justify-content-center d-flex align-content-center pt-lg-5'
+                id='experience'>
+            <div className='container' >
                 <p className='title'>Experience</p>
                 <ul className='list-table'>
                     <li>
@@ -21,7 +23,7 @@ const Experience = () => {
                     </li>
                 </ul>
             </div>
-    );
+    </Row>
 };
 
 export default Experience;
