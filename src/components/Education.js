@@ -15,7 +15,7 @@ const Education = () => {
                 <li>
                     <p className='date'>2008-2013</p>
                     <p className='list-primary'> National Research Nuclear University (MEPhI)</p>
-                    <p className='list-secondary'><a href='https://en.wikipedia.org/wiki/Specialist_degree' target='_blank'>Specialist degree</a></p>
+                    <p className='list-secondary'><a href='https://en.wikipedia.org/wiki/Specialist_degree' target='_blank' rel="noreferrer">Specialist degree</a></p>
                     <p className='list-tertiary'>Industrial and Civil Engineering</p>
                 </li>
             </ul>

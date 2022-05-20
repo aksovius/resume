@@ -20,13 +20,13 @@ const Home = () => {
 
             <Row className="social-icons justify-content-end">
                 <a href="https://www.facebook.com/aksovius" rel="noreferrer" target="_blank">
-                    <img src={ Facebook }/>
+                    <img alt={'Facebook'} src={ Facebook }/>
                 </a>
                 <a href="https://www.instagram.com/aksovius" rel="noreferrer" target="_blank">
-                    <img src={ Instagram }/>
+                    <img  alt='Instagram' src={ Instagram }/>
                 </a>
                 <a href="https://www.linkedin.com/in/aksovius" rel="noreferrer" target="_blank">
-                    <img src={ LinkedIn }/>
+                    <img alt={'LinkedId'} src={ LinkedIn }/>
                 </a>
             </Row>
         </Row>
