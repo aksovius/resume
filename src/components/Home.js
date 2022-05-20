@@ -3,16 +3,19 @@ import '../css/Home.css'
 import Facebook from '../static/facebook.svg'
 import LinkedIn from '../static/linkedin.svg'
 import Instagram from '../static/instagram.svg'
-import { Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
+import {Button} from "@mui/material";
 
 const Home = () => {
     return (
         <Row className='home d-flex align-items-center justify-content-center' id='home'>
-            <Row className='hello'>
+            <Row className='hello mb-5'>
                 <p>Hello,</p>
                 <p> I'm Alexander Kim</p>
                 <p> Smart City Researcher</p>
-                <a className='btn' href="#about">Who am I ?</a>
+                <Col  md={{ span: 3, offset: 4 }}>
+                    <Button size="large" variant="outlined" href="#about">Who am I ?</Button>
+                </Col>
             </Row>
 
             <Row className="social-icons justify-content-end">
