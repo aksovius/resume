@@ -1,6 +1,6 @@
- {
+{
     "name": "resume",
-    "homepage": "https://aksovius.github.io/resume",
+    "homepage": ".",
     "version": "0.2.1",
     "private": true,
     "dependencies": {
@@ -20,6 +20,7 @@
         "react-dom": "^18.0.0",
         "react-router-dom": "^6.3.0",
         "react-scripts": "5.0.0",
+        "sass": "^1.52.0",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
