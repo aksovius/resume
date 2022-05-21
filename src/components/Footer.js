@@ -26,7 +26,6 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className='bottom'>
-                    
                     <p>2022 Execute, Inc. All rights reserved</p>
                 </div>
             </div>
