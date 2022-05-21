@@ -9,7 +9,7 @@ const Education = () => {
         <Row className='justify-content-center'>
             <p className='title'>Education</p>
         </Row>
-        <Row>
+        <Row className='g-1 g-md-3'>
             <Col>
                 <Card sx={{
                     marginTop: 1

@@ -9,7 +9,7 @@ const Experience = () => {
         <Row className='justify-content-center'>
             <p className='title'>Experience</p>
         </Row>
-        <Row>
+        <Row className='g-1 g-md-3'>
         <Col md={6}>
         <Card sx={{
             marginTop: 1
