@@ -7,22 +7,22 @@ const Footer = () => {
             <div className='container'>
                 <ul>
                     <li className='nav-item'>
-                        <a href='#home'>Home</a>
+                        <a href={ '#home' }>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>About</a>
+                        <a href={ '#about' }>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#education'>Education</a>
+                        <a href={ '#education' }>Education</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#experience'>Experience</a>
+                        <a href={ '#experience' }>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#publications'>Publications</a>
+                        <a href={ '#publications' }>Publications</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#hobby'>Hobby</a>
+                        <a href={ '#hobby' }>Hobby</a>
                     </li>
                 </ul>
                 <div className='bottom'>
